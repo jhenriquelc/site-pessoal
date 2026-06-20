@@ -10,13 +10,55 @@ build_search_index = true
 # Custom theme
 theme = "duckquill"
 
-# duckquill required fields
-title = "Teste"
+default_language = "pt"
+
+# Settings
+author = "João H. L. Corrêa"
+minify_html = true
+
+title = "João H. L. Corrêa"
 
 [markdown]
+smart_punctuation = true
+bottom_footnotes = true
 
 [markdown.highlighting]
 theme = "catppuccin-mocha"
 
 [extra]
-accent_color = "#0BDA51"
+accent_color = "#04E762"
+styles=["custom.css"]
+show_copy_button = true
+
+
+[extra.nav]
+# Whether to automatically hide nav when not hovered or focused
+# auto_hide = true
+# Whether to show the Atom/RSS feed button in the nav
+show_feed = true
+theme = "dark"
+# Whether to show the link to the source repository in the nav
+show_repo = true
+# Links used in the nav.
+# For local files use same link format as in Markdown,
+# i.e. "@/blog/_index.md".
+# See https://www.getzola.org/documentation/content/linking/#internal-links
+links = [
+	# { name = "Links", menu = [
+	# 	{ url = "@/blog/_index.md", name = "Blog" },
+	# 	{ url = "@/demo/index.md", name = "Demo" },
+	# 	{ url = "@/mods/index.md", name = "Mods" }
+	# ] },
+	{ url = "https://linkedin.com/in/joaohlc", name = "LinkedIn" },
+	{ url = "https://github.com/jhenriquelc", name = "GitHub" }
+]
+
+
+[extra.footer]
+show_copyright = true
+copyright = "© João H. L. Corrêa, 2026"
+# Whether to show "Powered by Zola and Duckquill"
+show_powered_by = true
+# Whether to show link to website source
+show_source = false
+emoji_favicon = "🧑🏽‍💻"

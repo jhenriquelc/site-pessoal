@@ -1,0 +1,12 @@
+img.small-img {
+    max-width: 200px;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+}
+
+@media (max-width: 520px) {
+    img.small-img {
+        float: none;
+        justify-self: anchor-center;
+    }
+}

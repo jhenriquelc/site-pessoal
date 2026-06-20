@@ -1,0 +1,11 @@
+.crt-center .giallo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.crt-center {
+    margin-inline-start: calc((-100vw + 100%) / 2 + 1em);
+    margin-inline-end: calc((-100vw + 100%) / 2 - 1em);
+    width: calc(100vw - 2em);
+    max-width: 100vw;
+}
