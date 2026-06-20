@@ -9,7 +9,6 @@ emoji_favicon = "🧑🏽‍💻"
 
 {% crt_center() %}
 ```
-                                                                                
  o                      8      8                8                  8            
                         8      8                8                  8            
 o8 .oPYo. .oPYo. .oPYo. 8oPYo. 8 .oPYo.    .oPYo8 .oPYo. o    o    8oPYo. oPYo. 
