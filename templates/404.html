@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+{%- set rel_attributes = macros_rel_attributes::rel_attributes() | trim -%}
+<picture>
+	<source srcset="{{ get_url(path='404.png') }}" media="(prefers-reduced-motion: reduce)"></source>
+	<img id="not-found" class="pixels transparent no-hover" alt="404" {%- if config.markdown.lazy_async_image -%}decoding="async" loading="lazy"{%- endif -%} src="{{ get_url(path='404.gif') }}">
+</picture>
+
+<h1>Página não encontrada</h1>
+
+<p>A página requisitada não pôde ser encontrada. Verifique o URL digitado ou tente novamente mais tarde.{% if config.extra.issues_url %} Se você acredita que isso está errado, por favor abra um <i>issue</i> na página do GitHub.{% endif %}</p>
+
+<div class="buttons">
+	<a href="{{ get_url(path='/', lang=lang) }}">Voltar à tela inicial</a>
+	{%- if config.extra.issues_url %}
+		<a class="colored external" href="{{ config.extra.issues_url }}" rel="{{ rel_attributes }}">Abrir um <i>issue</i></a>
+	{%- endif %}
+</div>
+{% endblock content %}

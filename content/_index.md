@@ -50,4 +50,6 @@ Com isso, eu gostaria que esta página reflita, genuinamente, minha personalidad
 
 <br>
 
-Em breve eu adicionarei um link ao código-fonte desta página.
+---
+
+O código-fonte desta página está disponível no meu GitHub, sob a licença EUPL. Tem um link na barra de navegação que vai te levar direto pra lá.
