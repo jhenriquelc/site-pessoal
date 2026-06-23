@@ -31,14 +31,13 @@ styles=["custom.css"]
 show_copy_button = true
 issues_url = "https://github.com/jhenriquelc/site-pessoal/issues"
 source_url = "https://github.com/jhenriquelc/site-pessoal"
-
+default_theme = "dark"
 
 [extra.nav]
 # Whether to automatically hide nav when not hovered or focused
 # auto_hide = true
 # Whether to show the Atom/RSS feed button in the nav
 show_feed = true
-theme = "dark"
 # Whether to show the link to the source repository in the nav
 show_repo = true
 # Links used in the nav.
